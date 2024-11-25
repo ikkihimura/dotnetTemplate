@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Herbert Rodriguez",
+  "classifications": [ "Webapi", "classlib" ],
+  "identity": "My.Custom.Template",
+  "name": "My Custom Webapi Template",
+  "shortName": "custom-web-api",
+  "sourceName": "My.Custom.Template",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "domainName": {
+      "type": "parameter",
+      "displayName": "Domain Name",
+      "description": "Renames the default Domain Name to the value provided.",
+      "datatype": "text",
+      "defaultValue": "DomainName",
+      "replaces": "DomainName",
+      "fileRename": "DomainName"
+    }
+  },
+  "preferNameDirectory": true
+}
